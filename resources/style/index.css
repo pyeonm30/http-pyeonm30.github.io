@@ -2,7 +2,7 @@
 :root {
   --color-bg: #fdfffd;
   --color-grey: #d1d1d1;
-  --color-accent: #f797c7;
+  --color-accent: blue;
   --color-white: white;
   --color-yellow: #fbffb1;
   --color-dark-grey: #bbb8b8;
@@ -132,7 +132,7 @@ hr {
 }
 
 .skills > span:hover {
-  background-color: #f797c7;
+  background-color: var(--color-accent);
 }
 
 .description {
